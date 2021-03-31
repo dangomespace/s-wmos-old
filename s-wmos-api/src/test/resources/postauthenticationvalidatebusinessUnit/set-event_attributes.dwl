@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "client_id": "1d44ce44367b4f46910aa2433bcca039",
+    "client_secret": "kjihi56b1212vghc35b34kb45k",
+    "x-transaction-id": "DFFV45ERCEC",
+    "user-agent": "PostmanRuntime/7.26.10",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "422b1cb2-fa59-436b-82cc-71288511e69e",
+    "host": "localhost:8092",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "296"
+  },
+  "clientCertificate": null,
+  "method": "POST",
+  "scheme": "https",
+  "queryParams": {},
+  "requestUri": "/api/mawmos/ecp/v1/authentication/validate/businessUnit",
+  "queryString": "",
+  "version": "HTTP/1.1",
+  "maskedRequestPath": "/authentication/validate/businessUnit",
+  "listenerPath": "/api/mawmos/ecp/v1/*",
+  "relativePath": "/api/mawmos/ecp/v1/authentication/validate/businessUnit",
+  "localAddress": "/127.0.0.1:8092",
+  "uriParams": {},
+  "rawRequestUri": "/api/mawmos/ecp/v1/authentication/validate/businessUnit",
+  "rawRequestPath": "/api/mawmos/ecp/v1/authentication/validate/businessUnit",
+  "remoteAddress": "/127.0.0.1:53033",
+  "requestPath": "/api/mawmos/ecp/v1/authentication/validate/businessUnit"
+}

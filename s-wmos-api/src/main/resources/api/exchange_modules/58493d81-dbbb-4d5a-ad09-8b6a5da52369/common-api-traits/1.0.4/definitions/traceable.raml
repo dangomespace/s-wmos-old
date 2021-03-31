@@ -1,0 +1,10 @@
+#%RAML 1.0 Trait
+usage: Apply this trait to each API so that it has a transaction id to trace it's flow within the enterprise.
+headers:
+  X-TRANSACTION-ID:
+    description: Transaction ID is a unique identifier for all tracked events.
+    type: string
+    maxLength: 50
+    minLength: 5
+    required: true
+    example: 3F2504E0-4F89-11D3-9A0C-0305E82C3301
