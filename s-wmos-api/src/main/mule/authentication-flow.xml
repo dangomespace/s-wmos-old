@@ -50,6 +50,7 @@ p('secure::authentication.' ++ vars.clientID ++ '.username')
 		<validation:is-not-null doc:name="Is not null" doc:id="b9283fc3-e93c-4dd0-a174-2714e17faa0a" value="#[vars.username]" message="Invalid clientID" />
 		<logger level="INFO" doc:name="username retrieved" doc:id="edc05e72-2f91-4b71-97f8-8f8c44348917" message="#[vars.username]" category="username retrieved" />
 		<set-variable value="#[%dw 2.0&#10;output application/json&#10;---&#10;&#10;(vars.clientID) ++ '-' ++ (vars.username)]" doc:name="osKey" doc:id="5ac0bb68-4816-47b0-a1e7-17ac41548cf3" variableName="osKey" />
+		<logger level="INFO" doc:name="Logger test" doc:id="947d8566-0f81-4cd2-979c-3b6ddb34fd91" message="logger"/>
 	</sub-flow>
 	<sub-flow name="retrieve-contextID" doc:id="dcfe009f-669e-4d88-9a47-b5f3eeb0093d" >
 		<os:retrieve doc:name="retrieve contextID" doc:id="04be685d-677d-4423-8a21-0e60c698b6c2" key="#[vars.osKey]" objectStore="contextID" target="contextID" />
